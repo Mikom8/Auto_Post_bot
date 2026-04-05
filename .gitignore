@@ -1,0 +1,16 @@
+# Environments & Secrets
+.env
+.venv
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Docker
+.dockerignore
+
+# OS files
+Thumbs.db
+.DS_Store
