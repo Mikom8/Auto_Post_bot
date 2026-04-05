@@ -86,7 +86,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Status command"""
     if update.effective_user.id == ADMIN_ID:
         await update.message.reply_text(
-            "🚀 <b>MIKO TECH Bot Active!</b>\n\n"
+            "🚀 <b>MIKO TECH Bot Active Buddy!</b>\n\n"
             "⏰ <b>Scheduled:</b> 8 AM & 8 PM (EAT)\n"
             "📝 <b>Manual:</b> Use /post to send news now.", 
             parse_mode="HTML"
